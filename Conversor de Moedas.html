@@ -22,7 +22,7 @@ if (tipodeMoeda === '1' || tipodeMoeda === 'dolar' || tipodeMoeda === 'Dolar' ||
                 
             alert(`Você Escolheu Real`);
             let valoraConverter = prompt('Digite o Valor a se converter');
-            let resultado = valoraConverter * 6;
+            let resultado = valoraConverter * 5.20;
             alert(`A conversão resultou em R$${resultado}`);
         }
 
@@ -30,15 +30,15 @@ if (tipodeMoeda === '1' || tipodeMoeda === 'dolar' || tipodeMoeda === 'Dolar' ||
                 
                 alert(`Você Escolheu Euro`);
                 let valoraConverter = prompt('Digite o Valor a se converter');
-                let resultado = valoraConverter * 6;
-                alert(`A conversão resultou em R$${resultado}`);
+                let resultado = valoraConverter * 0.88;
+                alert(`A conversão resultou em €${resultado}`);
             }
             
         }
 
 //Conversor de Real para outras moedas
 
-else if (tipodeMoeda === '1' || tipodeMoeda === 'real' || tipodeMoeda === 'Real'){
+else if (tipodeMoeda === '2' || tipodeMoeda === 'real' || tipodeMoeda === 'Real'){
        
        alert(`Você Escolheu Real`);
           
@@ -49,16 +49,16 @@ else if (tipodeMoeda === '1' || tipodeMoeda === 'real' || tipodeMoeda === 'Real'
                    
                alert(`Você Escolheu Dólar`);
                let valoraConverter = prompt('Digite o Valor a se converter');
-               let resultado = valoraConverter / 6;
-               alert(`A conversão resultou em R$${resultado}`);
+               let resultado = valoraConverter / 5.20;
+               alert(`A conversão resultou em $${resultado}`);
            }
 
            else if (MoedaparaseConverter === '2' || MoedaparaseConverter === 'euro' || MoedaparaseConverter === 'Euro') {
                 
                 alert(`Você Escolheu Euro`);
                 let valoraConverter = prompt('Digite o Valor a se converter');
-                let resultado = valoraConverter * 6;
-                alert(`A conversão resultou em R$${resultado}`);
+                let resultado = valoraConverter / 5.80;
+                alert(`A conversão resultou em €${resultado}`);
             }
                 
                
@@ -77,15 +77,15 @@ else if (tipodeMoeda === '1' || tipodeMoeda === 'real' || tipodeMoeda === 'Real'
                    
                alert(`Você Escolheu Dólar`);
                let valoraConverter = prompt('Digite o Valor a se converter');
-               let resultado = valoraConverter / 6;
-               alert(`A conversão resultou em R$${resultado}`);
+               let resultado = valoraConverter * 1.12;
+               alert(`A conversão resultou em $${resultado}`);
            }
 
-           else if (MoedaparaseConverter === '1' || MoedaparaseConverter === 'real' || MoedaparaseConverter === 'Real') {
+           else if (MoedaparaseConverter === '2' || MoedaparaseConverter === 'real' || MoedaparaseConverter === 'Real') {
                 
                 alert(`Você Escolheu Real`);
                 let valoraConverter = prompt('Digite o Valor a se converter');
-                let resultado = valoraConverter * 6;
+                let resultado = valoraConverter * 5.80;
                 alert(`A conversão resultou em R$${resultado}`);
             }
                 
