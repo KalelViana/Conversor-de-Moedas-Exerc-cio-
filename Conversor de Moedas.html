@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    
+</head>
+<body>
+   
+<script>
+
+alert('Bem Vindo ao nosso conversor de moedas')
+
+let tipodeMoeda = prompt('Qual moeda você deseja converter? 1.Dolar 2.Real 3.Euro');
+
+//Conversor de Dolár para outras moedas
+if (tipodeMoeda === '1' || tipodeMoeda === 'dolar' || tipodeMoeda === 'Dolar' || tipodeMoeda === 'dólar' || tipodeMoeda === 'Dólar') {
+       
+    alert(`Você Escolheu Dólar`);
+       
+    let MoedaparaseConverter = prompt('Digite para qual moeda você deseja converter: 1.Real 2.Euro');
+
+        if (MoedaparaseConverter === '1' || MoedaparaseConverter === 'real' || MoedaparaseConverter === 'Real') {
+                
+            alert(`Você Escolheu Real`);
+            let valoraConverter = prompt('Digite o Valor a se converter');
+            let resultado = valoraConverter * 6;
+            alert(`A conversão resultou em R$${resultado}`);
+        }
+
+        else if (MoedaparaseConverter === '2' || MoedaparaseConverter === 'euro' || MoedaparaseConverter === 'Euro') {
+                
+                alert(`Você Escolheu Euro`);
+                let valoraConverter = prompt('Digite o Valor a se converter');
+                let resultado = valoraConverter * 6;
+                alert(`A conversão resultou em R$${resultado}`);
+            }
+            
+        }
+
+//Conversor de Real para outras moedas
+
+else if (tipodeMoeda === '1' || tipodeMoeda === 'real' || tipodeMoeda === 'Real'){
+       
+       alert(`Você Escolheu Real`);
+          
+       let MoedaparaseConverter = prompt('Digite para qual moeda você deseja converter: 1.Dólar 2.Euro');
+   
+
+           if (MoedaparaseConverter === '1' || MoedaparaseConverter === 'dolar' || MoedaparaseConverter === 'Dolar' || MoedaparaseConverter === 'dólar' || MoedaparaseConverter === 'Dólar') {
+                   
+               alert(`Você Escolheu Dólar`);
+               let valoraConverter = prompt('Digite o Valor a se converter');
+               let resultado = valoraConverter / 6;
+               alert(`A conversão resultou em R$${resultado}`);
+           }
+
+           else if (MoedaparaseConverter === '2' || MoedaparaseConverter === 'euro' || MoedaparaseConverter === 'Euro') {
+                
+                alert(`Você Escolheu Euro`);
+                let valoraConverter = prompt('Digite o Valor a se converter');
+                let resultado = valoraConverter * 6;
+                alert(`A conversão resultou em R$${resultado}`);
+            }
+                
+               
+           }
+
+    //Conversor de Euro para outras moedas
+
+    else if (tipodeMoeda === '3' || tipodeMoeda === 'euro' || tipodeMoeda === 'Euro'){
+       
+       alert(`Você Escolheu Euro`);
+          
+       let MoedaparaseConverter = prompt('Digite para qual moeda você deseja converter: 1.Dólar 2.Real');
+   
+
+           if (MoedaparaseConverter === '1' || MoedaparaseConverter === 'dolar' || MoedaparaseConverter === 'Dolar' || MoedaparaseConverter === 'dólar' || MoedaparaseConverter === 'Dólar') {
+                   
+               alert(`Você Escolheu Dólar`);
+               let valoraConverter = prompt('Digite o Valor a se converter');
+               let resultado = valoraConverter / 6;
+               alert(`A conversão resultou em R$${resultado}`);
+           }
+
+           else if (MoedaparaseConverter === '1' || MoedaparaseConverter === 'real' || MoedaparaseConverter === 'Real') {
+                
+                alert(`Você Escolheu Real`);
+                let valoraConverter = prompt('Digite o Valor a se converter');
+                let resultado = valoraConverter * 6;
+                alert(`A conversão resultou em R$${resultado}`);
+            }
+                
+               
+           }
+        
+</script>
+
+</body>
+</html>
